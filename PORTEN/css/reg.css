@@ -1,0 +1,134 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+font-family: 'Post No Bills Jaffna', sans-serif;
+font-family: 'Post No Bills Jaffna Light', sans-serif;
+font-family: 'Post No Bills Jaffna Medium', sans-serif;
+font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
+
+
+body{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.container{
+	max-width: 1109px;
+	margin: 0 auto;
+}
+
+h2{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 96px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+	 font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+  background-color: #42433E;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+ 	 font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+}
+
+label{
+	 font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+}
+ 
+.signin {
+  text-align: center;
+}
+
+.flex__reg{
+	display: flex;
+	flex-direction: column;
+
+}
+
+p{
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+
+.logo__img{
+	margin-top: 40px;
+}
+
+body{
+	background: url(../img/reg.jpg) no-repeat center top / cover;
+}
+

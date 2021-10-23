@@ -1,0 +1,103 @@
+/* БУРГЕР */
+
+	.header__nav{
+		display:none;
+	}
+
+	.section {
+	  	display: flex;
+	  	justify-content: flex-end;
+	  	align-items: flex-end;
+	}
+
+	.menu-btn {
+	  	display: block;
+	  	width: 30px;
+	  	height: 30px;
+	  	background-color: #fff;
+	  	border-radius: 50%;
+	  	position: relative;
+	}
+
+	.menu-btn span,
+	.menu-btn span::before,
+	.menu-btn span::after {
+	  	position: absolute;
+	  	width: 25px;
+	  	height: 2px;
+	  	background-color: #222;
+	}
+
+	span {
+		margin-top: 20px;
+	}
+
+	.menu-btn span::before,
+	.menu-btn span::after {
+	  content: '';
+	  display: block;
+	  transition: 1s;
+	}
+
+	.menu-btn span::before {
+ 	 transform: translateY(-5px);
+	}
+	.menu-btn span::after {
+	  transform: translateY(5px);
+	}
+
+	.menu-btn_active span:before {
+	  transform: rotate(-35deg);
+	  width: 10px;
+	  transform-origin: left bottom;
+	}
+
+	.menu-btn_active span:after {
+	  transform: rotate(35deg);
+	  width: 10px;
+	  transform-origin: left top;
+	}
+
+	.menu-block {
+	  position: relative;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	.menu-block {
+	  position: relative;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+	.menu-nav a {
+	  text-decoration: none;
+	  color: #222;
+	  text-transform: uppercase;
+	  font-weight: 500;
+	  display: inline-block;
+	  margin-right: 10px;
+	  transition: 1s;
+	  margin-top: 15px;
+	  font-family: Heebo;
+	  font-style: normal;
+	  font-size: 15px;
+	  line-height: 29px;
+
+	}
+
+	.menu-nav {
+	  transition: 0.2s;
+	  transform: scaleX(0) translateX(20%);
+	  transform-origin: right center;
+	  opacity: 0;
+	}
+	.menu-nav_active {
+	  transform: scaleX(1) translateX(0%);
+	  opacity: 1;
+	}
+
+
+
+	/* ---------------------- */
