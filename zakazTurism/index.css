@@ -52,7 +52,9 @@ p{
     margin: 0 0 0 32px;
 }
 /* HERO */
-
+.hero{
+    min-height: 100vh;
+}
 .hero-info{
     max-width: 521px;
 }
