@@ -6,3 +6,5 @@ My sites:
 [2. Food Store ( no adaptive )](https://kerildoter.github.io/foodstore/ "Food Store")
 
 [3. Коммерческий проект "Лендинг для турагенства"](https://kerildoter.github.io/tourism/ "Tourism")
+
+[4. Адаптивная верстка](https://kerildoter.github.io/john/ "John")
