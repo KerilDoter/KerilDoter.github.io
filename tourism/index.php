@@ -51,9 +51,7 @@
                     </form>
                 </div>
             </div>
-            <video loop muted autoplay poster="src/heroIMG.png" class="fullscreen-bg__video">
-                    <source src="src/hero.mp4" type="video/mp4">
-            </video>
+            <img class="fullscreen-bg__video" src="src/hero.jpg" alt="">
         </div>
         <div class="line"></div>
         <div class="prog" id="prog">

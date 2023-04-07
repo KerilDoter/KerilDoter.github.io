@@ -52,7 +52,7 @@ p{
     display: flex;
 }
 .header-nav-list-item-link{
-    color: #fff;
+    color: #111;
     margin: 0 0 0 32px;
 }
 .header-img{
@@ -72,11 +72,11 @@ p{
     font-size: 24px;
     line-height: 29px;
     padding: 0 0 32px 0;
-    color: white;
+    color: #111;
 }
 .hero-info-desc1{
     padding: 0 0 24px 0;
-    color: white;
+    color: #111;
 }
 .hero-info-desc2{
     padding: 0 0 24px 0;
@@ -95,7 +95,7 @@ p{
 .hero-form-head{
     margin: 0;
     padding: 0 0 22px 0;
-    color: white;
+    color: #111;
 }
 input[type='text'], input[type='email']{
     background: rgba(217, 217, 217, 0.2);
