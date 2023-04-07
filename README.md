@@ -8,3 +8,5 @@ My sites:
 [3. Коммерческий проект "Лендинг для турагенства"](https://kerildoter.github.io/tourism/ "Tourism")
 
 [4. Адаптивная верстка](https://kerildoter.github.io/JOHN/ "John")
+
+[4. Адаптивный сайт XBOX](https://kerildoter.github.io/XBOX/ "XBOX")
