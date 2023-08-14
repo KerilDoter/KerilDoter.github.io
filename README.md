@@ -9,4 +9,4 @@ My sites:
 
 [4. Адаптивная верстка](https://kerildoter.github.io/JOHN/ "John")
 
-[5. Адаптивный сайт XBOX](https://kerildoter.github.io/XBOX/ "XBOX")
+[5. Адаптивный сайт XBOX](https://xbox-by-volinad.netlify.app/ "XBOX")
